@@ -1,46 +1,31 @@
 const workExperience = [
     {
-        companyName: 'xplorz.com',
-        projectTitle: 'Travel Booking System',
+        companyName: 'easyworks.com',
+        projectTitle: 'Accounting Services',
         projectDescription:
-            'Xplorz.com provides corporates with easy travel booking solutions. These include flight and hotel booking. In this project I had to make an intricate system of flight bookings, hotel bookings and an entire accounting system. This project took 6+ months to complete, with the implementation of a large arsenal of latest technologies that were needed to make seatmaps, ledgers and taking into account hundreds of logical loopholes.',
+            'Easyworks provide various professional services including performance reviews, surveys and feedback, operations support, shared executive assistance, accounting and bookkeeping, payment processing, contact center services, no-code ERP solutions, service procurement, legal resources, training and development, and certifications. Where i was responsible to create whole cms for admin, customer and service partners also their main website. We basically digitalized whole registration process.',
     },
     {
-        companyName: 'mtalkz.com',
-        projectTitle: 'Campaign + Live Agent CRM',
-        projectDescription:
-            'Mtalkz provides multiple business solutions. I made their entire Live Agent module that is a part of their CRM, where an agent from a customer support of a business can talk to multiple clients present on the other end through WhatsApp or any other blackbox. This required a sinuous structure of web sockets, as well as integration of many other APIs to allow direct calling, and many other configurations and feature available to the agent.',
+        companyName: 'stealthjobs.co',
+        projectTitle: 'Job Portal',
+        projectDescription: 'Stealth jobs is a portal where user can search for jobs anonymously and recruiter can see the full profile once the candidate was matched based upon skills. I was responsible for creating panels for candidate and recruiter, and also created a dashboard for admin to manage the whole portal. Also added the stealth feature where user can hide their profile from recruiter until they want to show it.'
     },
     {
-        companyName: 'shridharlifeschool.com',
-        projectTitle: 'Therapy Session Booking',
-        projectDescription:
-            'A very complex full stack freelance project that I had to build from scratch. This was for ShridharLifeSchool, a startup with a dedicated YouTube channel with 300k subscribers currently. So this was the big project, where I had to take care of login, authentication, database encryption, security, payment gateway integrations, form fillups, backend google sheet sync and hosting as well. A lot of logic and testing went into this project.',
+        companyName: 'events.studenttribe.in',
+        projectTitle: 'Event Management',
+        projectDescription: 'Student Tribe is a platform that allows students to find events and activities to participate in. I was responsible for creating a dashboard for admin to manage the whole portal also helped improving event manager portal created by other developers. Also worked in sync with the backend team to improve the overall stability and added new features requested by the client.'
     },
     {
-        companyName: 'instrucko.com',
-        projectTitle: 'Ed-Tech For Virtual Classrooms',
-        projectDescription:
-            'A full stack project for allowing ease of access to teachers creating virtual classrooms, which students can attend, where students can submit their homework and teachers can review and provide feedback to it. It has a full fledged CMS as well easy onboarding logic for teachers and students. Classrooms can be scheduled, online homework and assignments can be assigned to students. A complex project with lots of in-depth logic and testing',
+        companyName: 'mountmonks.com',
+        projectTitle: 'Travel and Tourism',
+        projectDescription: 'Mount monks provide affordable packages for Bhutan, Vietnam and Thailand.It is basically a static yet responsive website created by me.'
     },
     {
-        companyName: 'veillockit.com',
-        projectTitle: 'Static Consultancy Booking Site',
-        projectDescription:
-            'Static business site for a consultancy firm. As a business website, 100 SEO score, and 90+ page load speeds are prioritized. It has integration of swipe sliders as the hero section, with custom animated text loading. This website showcases a beautiful and responsive UI along with highly optimized images, giving it a very good page load speed. All these features help in increasing client conversion and getting noticed on the search engines.',
+        companyName: 'jam stories',
+        projectTitle: 'Social media platform',
+        projectDescription: 'Jam stories is a social media platform where user can share their stories and get likes and comments from other users. I was responsible for creating a dashboard for admin to manage the whole portal..'
     },
-    {
-        companyName: 'myusa.business',
-        projectTitle: 'Static Business Site With Online Payments',
-        projectDescription:
-            'Static business site for a business that helps open companies and accounts in the USA. As a business website, 100 SEO score, and 90+ page load speeds are prioritized. It is available in 3 translations that can be switched at will. The website has Stripe + PayPal integration. This website showcases a beautiful and responsive UI along with highly optimized images, giving it a very good page load speed.',
-    },
-    {
-        companyName: 'dominicana4k.com',
-        projectTitle: 'Static Business Site With 100 Performance',
-        projectDescription:
-            'Static business site that gives loans. As a business website, 100 SEO score, and 90+ page load speeds are prioritized. The website has Stripe + PayPal integration. This website showcases a beautiful and responsive UI along with highly optimized images, giving it a very good page load speed.',
-    },
+
 ];
 
 export default workExperience;

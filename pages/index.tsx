@@ -1,15 +1,13 @@
 import Link from 'next/link';
 import CountUp from 'react-countup';
-import ClientSlider from '../components/ClientSlider';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper';
 import 'swiper/css/navigation';
 import 'swiper/css';
-import Head from 'next/head';
 import WorkExperience from '../lists/WorkExperience';
-import { BsDiscord, BsLinkedin } from 'react-icons/bs';
+import { BsDiscord, BsGithub, BsLinkedin } from 'react-icons/bs';
 import { AiFillGitlab } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
 import { HiDocumentText } from 'react-icons/hi';
@@ -50,9 +48,9 @@ const PersonalPortfolio = () => {
                                 <Link href="#contact" className="btn bg-white py-[19px] shadow-[10px_15px_30px_rgba(199,128,161,0.2)]">
                                     Contact
                                 </Link>
-                                <Link href="#pricing" className="btn px-8 py-[19px] text-white shadow-[10px_15px_30px_rgba(199,128,161,0.2)]">
+                                {/* <Link href="#pricing" className="btn px-8 py-[19px] text-white shadow-[10px_15px_30px_rgba(199,128,161,0.2)]">
                                     Pricing
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                         <div className="top-0 mt-10 w-full max-w-[686px] ltr:right-0 rtl:left-0 lg:absolute" data-aos="fade-left" data-aos-duration="1000">
@@ -205,7 +203,7 @@ const PersonalPortfolio = () => {
                             <img
                                 src="/assets/images/personal-portfolio/me2.jpg"
                                 alt=""
-                                className="absolute -bottom-10 h-[140px] w-[140px] rotate-12 ltr:-left-10 rtl:-right-10"
+                                className="absolute -bottom-10 h-[140px] w-[140px] rotate-12 ltr:-left-10 rtl:-right-10 rounded-full"
                                 data-aos="fade-up"
                                 data-aos-duration="1000"
                             />
@@ -216,7 +214,7 @@ const PersonalPortfolio = () => {
                                     <span className="text-primary">/</span> About Zuhaib
                                 </h6>
                                 <h2 className="text-3xl font-black leading-normal text-black dark:text-white md:text-[40px]">
-                                    Making full-stack apps since 2021
+                                    Making web apps since 2021
                                 </h2>
                             </div>
                             <p className="text-lg font-medium">
@@ -256,13 +254,13 @@ const PersonalPortfolio = () => {
                         </div>
                         <div className="bg-secondary/10 px-5 py-8 md:px-12 md:py-10">
                             <div className="mb-4 text-[40px] font-extrabold text-secondary">
-                                <CountUp start={0} end={100} duration={5} suffix="+"></CountUp>
+                                <CountUp start={0} end={10} duration={5} suffix="+"></CountUp>
                             </div>
                             <h6>Technologies</h6>
                         </div>
                         <div className="px-5 py-8 md:px-12 md:py-10">
                             <div className="mb-4 text-[40px] font-extrabold text-primary">
-                                <CountUp start={0} end={50} duration={5} suffix="+"></CountUp>
+                                <CountUp start={0} end={20} duration={5} suffix="+"></CountUp>
                             </div>
                             <h6>Projects complete</h6>
                         </div>
@@ -486,7 +484,7 @@ const PersonalPortfolio = () => {
             </section >
 
             {/* Pricing */}
-            < section id="pricing" className="scroll-mt-20 bg-gradient-to-t from-white/50 to-transparent py-14 dark:from-white/[0.02] md:py-20 lg:scroll-mt-24" >
+            {/* < section id="pricing" className="scroll-mt-20 bg-gradient-to-t from-white/50 to-transparent py-14 dark:from-white/[0.02] md:py-20 lg:scroll-mt-24" >
                 <div className="container">
                     <div className="mb-10">
                         <h6 className="mb-4 text-lg font-extrabold uppercase text-secondary">
@@ -916,7 +914,7 @@ const PersonalPortfolio = () => {
                         </div>
                     </div>
                 </div>
-            </section >
+            </section > */}
 
             {/* Contact */}
             < section id="contact" className="scroll-mt-20 bg-black py-10 md:py-0 lg:scroll-mt-24" >
@@ -935,12 +933,18 @@ const PersonalPortfolio = () => {
                                         <Link href={process.env.NEXT_PUBLIC_DISCORD} target="_blank">
                                             <BsDiscord className="text-3xl text-secondary transition hover:scale-110 hover:text-primary" />
                                         </Link>
+
                                     </li>
-                                    {/* <li>
-                                        <Link href={process.env.NEXT_PUBLIC_GITLAB} target="_blank">
-                                            <AiFillGitlab className="text-4xl text-secondary transition hover:scale-110 hover:text-primary" />
+                                    <li>
+                                        <Link href={process.env.NEXT_PUBLIC_LINKEDIN} target="_blank">
+                                            <BsLinkedin className="text-3xl text-secondary transition hover:scale-110 hover:text-primary" />
                                         </Link>
-                                    </li> */}
+                                    </li>
+                                    <li>
+                                        <Link href={process.env.NEXT_PUBLIC_GITHUB} target="_blank">
+                                            <BsGithub className="text-4xl text-secondary transition hover:scale-110 hover:text-primary" />
+                                        </Link>
+                                    </li>
                                     <li>
                                         <Link href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
                                             <MdEmail className="text-4xl text-secondary transition hover:scale-110 hover:text-primary" />

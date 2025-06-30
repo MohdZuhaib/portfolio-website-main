@@ -61,9 +61,9 @@ const Header = (props: any) => {
                                 <li>
                                     <Link href="#work-exp">Portfolio</Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="#pricing">Pricing</Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link href="#contact">Contact</Link>
                                 </li>
