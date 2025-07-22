@@ -1,6 +1,6 @@
 const workExperience = [
     {
-        companyName: 'easyworks.com',
+        companyName: 'easyworks.in',
         projectTitle: 'Accounting Services',
         projectDescription:
             'Easyworks provide various professional services including performance reviews, surveys and feedback, operations support, shared executive assistance, accounting and bookkeeping, payment processing, contact center services, no-code ERP solutions, service procurement, legal resources, training and development, and certifications. Where i was responsible to create whole cms for admin, customer and service partners also their main website. We basically digitalized whole registration process.',
