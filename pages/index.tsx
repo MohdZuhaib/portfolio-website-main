@@ -38,7 +38,7 @@ const PersonalPortfolio = () => {
                     <div className="relative">
                         <div className="text-center lg:max-w-[754px] lg:text-left ltr: rtl:lg:text-right">
                             <h2 className="text-3xl font-black sm:text-5xl md:text-6xl">
-                                Expert in <span className="text-primary">Frontend</span> technologies.
+                                Expert in <span className="text-primary">Fullstack</span> technologies.
 
                             </h2>
                             <p className="mt-7 text-base font-semibold xl:text-lg">
